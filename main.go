@@ -1,6 +1,6 @@
-// things to keep in mind
-// struct starts with lowercase
-// json tag should start with uppercase
+// Good Practices
+// Struct name should start with lowercase
+// Json tags should start with uppercase
 
 package main
 
