@@ -22,12 +22,12 @@ type hello []helloWorld
 func showMessage(w http.ResponseWriter, r *http.Request) {
 	// hard coding values to the json
 	// which in most cases will be fetched by database
-	admins := hello{
+	message := hello{
 		helloWorld{Message: "Hello World"},
 	}
 
-	fmt.Println("All Admins")
-	json.NewEncoder(w).Encode(admins)
+	fmt.Println("All Messages")
+	json.NewEncoder(w).Encode(message)
 }
 
 func homePage(w http.ResponseWriter, r *http.Request) {
