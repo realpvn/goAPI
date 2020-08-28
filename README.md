@@ -7,11 +7,15 @@ Make sure you have go installed & your code editor setup (https://gist.github.co
 
 #### Step 2
 Clone repository
-`git clone git@github.com:realpvn/template-goAPI.git`
+```
+git clone git@github.com:realpvn/template-goAPI.git
+```
 
 #### Step 3
 Open your terminal and navigate to the cloned directory and run
-`go run main.go`
+```
+go run main.go
+```
 
 You can open your browser and visit `localhost:8080`
 
